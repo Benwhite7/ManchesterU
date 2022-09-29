@@ -1,0 +1,245 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0px 8px 8px 10px;
+    margin-bottom: 30px;
+}
+h1 {
+    background: red;
+    text-align: center;
+    color: white;
+}
+.inactive {
+    display: none;
+}
+.prymary-container {
+    background:red;
+    width: 1335px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.mini-container-prymary-container{
+    height: 300px;
+    width:  300px;
+}
+.mini-container-prymary-container img {
+    width: 100%;
+    height: 100%;
+}
+.second-container {
+ text-align: center;
+}
+.third-container {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.third-container p {
+    font-weight: bold;
+    background: gold;
+}
+.trophie {
+    display: grid;
+    grid-template-columns: 350px  270px 400px ;
+    gap: 20px;
+    place-content: center;
+}
+.Ucl {
+    width: 340px;
+    height: 320px;
+}
+.Ucl img {
+    width: 90%;
+    height: 90%;
+}
+.PremierL {
+    width: 260px;
+    height: 360px;
+}
+.PremierL img {
+    width: 90%;
+    height: 90%;
+}
+.trophie .MundialC{
+    width: 510px;
+    height: 280px;
+}
+.MundialC img {
+    width: 90%;
+    height: 90%;
+}
+/*Detalles de la Ucl*/
+#detalles-de-trofeos {
+    width: 430px;
+    position: fixed;
+    right: 0;
+    background: black;
+    border-radius: 5px;
+    color: white;
+    border: 3px solid black;
+}
+.trophies-uk img {
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+    background: blue;
+}
+.informacion-de-trofeos{
+    margin: 7px;
+}
+.product-detail-close {
+    width: 14px;
+    height: 14px;
+    top: 15px;
+    left: 15px;
+    position: absolute;
+    padding: 12px;
+    border-radius: 50%;
+    background: white;
+    z-index: 2;
+}
+.product-detail-close:hover{
+    cursor: pointer;
+}
+/*Detalles de la premier League*/
+ #detalles-de-Pl{
+    width: 430px;
+    position: fixed;
+    right: 0;
+    background: black;
+    border-radius: 5px;
+    color: white;
+    border: 3px solid black;
+ }
+ #detalles-de-Pl img {
+    width: 100%;
+    object-fit: cover;
+ }
+ .trophie-Pl-close{
+    width: 14px;
+    height: 14px;
+    top: 15px;
+    left: 15px;
+    position: absolute;
+    padding: 12px;
+    border-radius: 50%;
+    background: white;
+    z-index: 2;
+ }
+/*Detalles del Mundial de Clubes*/
+#detalles-de-Mc{
+    width: 430px;
+    position: fixed;
+    right: 0;
+    background: black;
+    border-radius: 5px;
+    color: white;
+    border: 3px solid black;
+ }
+ #detalles-de-Mc img {
+    width: 100%;
+    object-fit: cover;
+ }
+ .trophie-Mc-close{
+    width: 14px;
+    height: 14px;
+    top: 15px;
+    left: 15px;
+    position: absolute;
+    padding: 12px;
+    border-radius: 50%;
+    background: white;
+ }
+
+ /*Cuarto contenedor*/
+ .fourth-container{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 420px 420px 450px ;
+    grid-template-rows: 478px;
+    gap: 20px;
+    object-fit: cover;
+    place-content: center;
+ }
+ .fourth-container img {
+    width: 100%;
+    height: 290px;
+ }
+ 
+ .fourth-container p {
+    text-align: center;
+    font-weight: bold;
+ }
+ .liverpool {
+    background:black;
+    border-radius: 10px;
+    color: white;
+    border: 5px solid black;
+ }
+ .mini-container-liverpool{
+    display: grid;
+    background: white;
+    color: black;
+    width: 410px;
+    height: 60px;
+    place-content: center;
+    font-size: large;
+ }
+ .mini-container-liverpool img{
+    position: absolute;
+    height: 50px;
+    width: 45px;
+    margin-left: 115px;
+    margin-top: 3px;
+ }
+ .Arsenal {
+    background: black;
+    color: white;
+    border: 5px solid black;
+ }
+ .Arsenal img{
+    height: 250px;
+ }
+ .mini-container-arsenal{
+    display: grid;
+    background: white;
+    color: black;
+    width: 410px;
+    height: 60px;
+    place-content: center;
+    font-size: large;
+    border-radius: 5px;
+ }
+ .mini-container-arsenal img{
+    position: absolute;
+    height: 50px;
+    width: 45px;
+    margin-left: 120px;
+    margin-top: 3px;
+ }
+ .ManchesterC {
+    background: black;
+    border-radius: 10px;
+    color: white;
+    border: 5px solid black;
+ }
+ .mini-container-Mc{
+    display: grid;
+    grid-template-columns: 130px 200px;
+    background: white;
+    color: black;
+    height: 60px;
+    place-content: center;
+    font-size: large;
+    border-radius: 5px;
+    
+ }
+ .mini-container-Mc p {
+    text-align: start;
+ }
+ .mini-container-Mc img{
+    height: 50px;
+    width: 45px;
+    margin-left: 80px;
+    margin-top: 3px;
+ }
