@@ -13,7 +13,6 @@ h1 {
 }
 .prymary-container {
     background:red;
-    width: 1335px;
     height: 300px;
     display: flex;
     justify-content: center;
@@ -22,6 +21,8 @@ h1 {
 .mini-container-prymary-container{
     height: 300px;
     width:  300px;
+    display: flex;
+    justify-content: center;
 }
 .mini-container-prymary-container img {
     width: 100%;
@@ -40,7 +41,7 @@ h1 {
 }
 .trophie {
     display: grid;
-    grid-template-columns: 350px  270px 400px ;
+    grid-template-columns: 350px  270px 510px ;
     gap: 20px;
     place-content: center;
 }
@@ -71,7 +72,7 @@ h1 {
 /*Detalles de la Ucl*/
 #detalles-de-trofeos {
     width: 430px;
-    position: fixed;
+    position: absolute;
     right: 0;
     background: black;
     border-radius: 5px;
@@ -161,11 +162,6 @@ h1 {
     object-fit: cover;
     place-content: center;
  }
- .fourth-container img {
-    width: 100%;
-    height: 290px;
- }
- 
  .fourth-container p {
     text-align: center;
     font-weight: bold;
@@ -175,6 +171,9 @@ h1 {
     border-radius: 10px;
     color: white;
     border: 5px solid black;
+ }
+ .liverpoolI {
+   width: 100%;
  }
  .mini-container-liverpool{
     display: grid;
@@ -197,7 +196,8 @@ h1 {
     color: white;
     border: 5px solid black;
  }
- .Arsenal img{
+ .ArsenalI{
+   width: 100%;
     height: 250px;
  }
  .mini-container-arsenal{
@@ -223,6 +223,9 @@ h1 {
     color: white;
     border: 5px solid black;
  }
+ .ManCityI {
+   width: 100%;
+ }
  .mini-container-Mc{
     display: grid;
     grid-template-columns: 130px 200px;
@@ -243,3 +246,110 @@ h1 {
     margin-left: 80px;
     margin-top: 3px;
  }
+ .informacion {
+   display: grid;
+   grid-template-columns: 140px 130px 140px;
+   grid-template-rows: 150px;
+   gap : 7px;
+ }
+ .informacion p{
+   color:  white;
+ }
+ .victoria {
+   display: flex;
+   flex-direction: column;
+   height: 150px;
+   width: 130px;
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+ }
+ .liverpoool img{
+   height: 100px;
+  width: 100px;
+ }
+ .arseenal img{
+   height: 100px;
+  width: 100px;
+ }
+ .ManCity img {
+   height: 100px;
+  width: 100px;
+ }
+ .Empate {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    width: 130px;
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+ }
+ .apretondeManos{
+   border-radius: 10px;
+   background: white;
+   height: 100px;
+   width: 100px;
+ }
+ .Derrota {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    width: 130px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+ }
+ .ArsenalD{
+   height: 100px;
+   width: 85px;
+ }
+ .ManCityD {
+   height: 100px;
+   width: 100px;
+ }
+ .LiverpoolD{
+   height: 100px;
+   width: 73px;
+ }
+ @media (max-width: 640px){
+    .trophie {
+        display: grid;
+        grid-template-columns: 510px ;
+        grid-template-rows: 320px 360px 300px;
+        gap: 20px;
+        justify-items: center;
+    }
+    #detalles-de-Mc{
+        width: 99%;
+        height: 100%;
+        right: 0;
+        background: black;
+        border-radius: 5px;
+        color: white;
+        border: 3px solid black;
+     }
+     #detalles-de-Pl{
+        width: 99%;
+        height: 100%;
+        right: 0;
+        background: black;
+        border-radius: 5px;
+        color: white;
+        border: 3px solid black;
+     }
+     #detalles-de-trofeos {
+        width: 99%;
+     }
+     .fourth-container{
+      grid-template-columns: 450px ;
+      grid-template-rows: 478px  478px  478px;
+      justify-items: center
+     }
+     .mini-container-arsenal{
+      width: 440px;
+     }
+     .mini-container-liverpool{
+      width: 440px;
+     }
+    }
